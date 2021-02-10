@@ -1,4 +1,4 @@
-package com.rakib.r_socket;
+package com.r_socket_producer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

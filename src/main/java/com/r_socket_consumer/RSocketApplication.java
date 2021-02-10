@@ -1,8 +1,9 @@
-package com.rakib.r_socket;
+package com.r_socket_consumer;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.stereotype.Controller;
 import reactor.core.publisher.Flux;
@@ -13,6 +14,7 @@ import java.time.Duration;
 @Slf4j
 @Controller
 @SpringBootApplication
+@PropertySource("classpath:application_consumer.properties")
 public class RSocketApplication {
 
 
